@@ -1,0 +1,21 @@
+{
+  "name": "lwc-rollup",
+  "version": "1.0.0",
+  "description": "Demo for a lwc rollup plugin bug",
+  "license": "ISC",
+  "author": "Vincent W.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@lwc/rollup-plugin": "^8.12.4",
+    "@rollup/plugin-html": "^1.1.0",
+    "lwc": "^8.12.4",
+    "rollup": "^4.30.1",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^1.1.1"
+  }
+}
