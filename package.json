@@ -13,6 +13,7 @@
   "devDependencies": {
     "@lwc/rollup-plugin": "^8.12.4",
     "@rollup/plugin-html": "^1.1.0",
+    "@rollup/plugin-replace": "^6.0.2",
     "lwc": "^8.12.4",
     "rollup": "^4.30.1",
     "rollup-plugin-livereload": "^2.0.5",
